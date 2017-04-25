@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var dj;
     
     function fileGetUploaded() {
-        alert("success!");    
+        $( "#submit-btn" ).trigger( "click" );   
     }
     
     if (new Resumable().support) {
