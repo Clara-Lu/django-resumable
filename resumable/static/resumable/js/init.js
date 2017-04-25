@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var dj;
     
     function fileGetUploaded() {
+    	alert("Your upload is successful!");
         $( "#submit-btn" ).trigger( "click" );   
     }
     
